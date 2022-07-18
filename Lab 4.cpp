@@ -14,7 +14,7 @@ int main(){
 	
 	printf ("Input the working hrs : ") ;
 	scanf ("%d", &hour);
-	printf (" Salare ammount/hr (Bath) : ");
+	printf (" Salary ammount/hr (Bath) : ");
 	scanf ("%d", &ammout ) ;
 	
 	//Output salary
