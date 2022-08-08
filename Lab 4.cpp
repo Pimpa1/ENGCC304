@@ -12,16 +12,16 @@ int main(){
 		if ( strlen (employee_id ) <= 10 ) break ;
 	}//end while
 	
-	printf ("Inpit the working hrs : ") ;
+	printf ("Input the working hrs : ") ;
 	scanf ("%d", &hour);
-	printf (" Salare ammount/hr (Bath) : ");
+	printf (" Salary ammount/hr (Bath) : ");
 	scanf ("%d", &ammout ) ;
 	
 	//Output salary
 	printf ("----\n") ;
 	printf ("Eecepted Output : \n") ;
 	printf ("Employees ID = %s\n", employee_id) ;
-	printf ("Amount/dat = %.2f BAth(s)", (float)(ammout * hour)) ;
+	printf ("Ammount/day = %.2f BAth(s)", (float)(ammout * hour)) ;
 	
 	return 0 ;
 }//end function
