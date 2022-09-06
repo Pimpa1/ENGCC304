@@ -3,7 +3,7 @@
 
 int main(){
 	char name[100];
-    printf( "Input : " );
+        printf( "Input : " );
 	gets(name);
 	int a = strlen(name)+1;
 	int i ;
